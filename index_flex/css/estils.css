@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+
+.card{
+    transform: scale(1);
+    transition: 0.25s;
+}
+
+.card:hover{
+  transform: scale(1.025);
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+  transition: 0.25s;
+}
+
+.t1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Be Vietnam Pro', bold;
+}
+
+.t2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.t3{
+    color: darkgray;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.tit{
+    text-align: center;
+    text-decoration-color: black;
+    font-size: 45px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.formc{
+    justify-content: center;
+    position: relative;
+    align-content: center;
+}
+
+.bot{
+    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50;
+    align-content: center;
+}
+
+a.bot:link, a.bot:visited {
+  background-color: salmon;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.bot:hover, a.bot:active {
+  background-color:coral;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkgray;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
